@@ -1,7 +1,7 @@
 # SE 217: Object Oriented Programming Lab
 
 ## Student Information
-- **Name:** Faiaz
+- **Name:** Faiaz ul Islam
 - **Student ID:** 252-35-597
 - **Section:** 45-H2
 - **Course:** SE 217 - Object Oriented Programming Lab
@@ -10,10 +10,7 @@
 ---
 
 ## Repository Description
-This repository contains lab exercises and practice solutions for the **SE 217: Object Oriented Programming Lab** course.
-
-### Reference Playlist
-- **Java Basic Syntax Bangla Tutorial:** [Watch Playlist on YouTube](https://www.youtube.com/playlist?list=PLdl6zXgLsy3xCae1uL6rJ8Ay9sIiyBy5I)
+This repository contains lab performance tasks, practice solutions, and assignments for the **SE 217: Object Oriented Programming Lab** course at Daffodil International University.
 
 ---
 
@@ -21,64 +18,99 @@ This repository contains lab exercises and practice solutions for the **SE 217: 
 ```text
 se217-oop-lab/
 |-- README.md
-\-- week02/
-    \-- src/
-        |-- Java01.java
-        |-- Java02.java
-        |-- Java03.java
-        |-- Java04.java
-        |-- Java05.java
-        |-- Java06.java
-        |-- Java07.java
-        |-- Java08.java
-        |-- Java09.java
-        |-- Java10.java
-        |-- Java11.java
-        |-- Java12.java
-        |-- Java13.java
-        |-- Java14.java
-        |-- Java15.java
-        |-- Java16.java
-        |-- Java17.java
-        |-- Java18.java
-        \-- Java19.java
+|-- .gitignore
+|-- Week01_597/
+|   |-- FoodItem.java
+|   \-- FoodItemDemo.java
+|-- week02/
+|   |-- Week02_252-35-597.pdf
+|   \-- src/
+|       |-- Java01.java ... Java19.java
+|-- week3/
+|   |-- BusTrip.java
+|   \-- BusCounter.java
+|-- week4/
+|   \-- week4_597.java
+\-- Week05/
+    |-- Student.java
+    \-- StudentDemo.java
 ```
 
 ---
 
-## Program Index
+## Lab Modules & Weekly Overview
 
-| Lecture # | File | Topic Summary |
-|:---:|:---|:---|
-| 01 | [`Java01.java`](./week02/src/Java01.java) | Hello World & basic print output |
-| 02 | [`Java02.java`](./week02/src/Java02.java) | Standard output & escape sequences (`\n`, `\t`) |
-| 03 | [`Java03.java`](./week02/src/Java03.java) | Variable declaration & `double` primitive type |
-| 04 | [`Java04.java`](./week02/src/Java04.java) | Primitive types (`int`, `float`, `long`), casting & operations |
-| 05 | [`Java05.java`](./week02/src/Java05.java) | `if-else` branching & logical OR (`||`) condition check |
-| 06 | [`Java06.java`](./week02/src/Java06.java) | `else-if` ladder (Age category classifier) |
-| 07 | [`Java07.java`](./week02/src/Java07.java) | `switch-case` control flow with expressions |
-| 08 | [`Java08.java`](./week02/src/Java08.java) | Pre-increment (`++x`) vs Post-increment (`x++`) behavior |
-| 09 | [`Java09.java`](./week02/src/Java09.java) | `for` loop with conditional divisibility check (`% 3` and `% 5`) |
-| 10 | [`Java10.java`](./week02/src/Java10.java) | `while` loop for stepped series summation |
-| 11 | [`Java11.java`](./week02/src/Java11.java) | `do-while` loop structure & increment |
-| 12 | [`Java12.java`](./week02/src/Java12.java) | Nested loops for inverted right-triangle pattern |
-| 13 | [`Java13.java`](./week02/src/Java13.java) | 1D Array creation, indexing, access and updates |
-| 14 | [`Java14.java`](./week02/src/Java14.java) | 2D Array matrix traversal, sum and average calculation |
-| 15 | [`Java15.java`](./week02/src/Java15.java) | String class methods (`length`, `toUpperCase`, `toLowerCase`, `charAt`, `equals`) |
-| 16 | [`Java16.java`](./week02/src/Java16.java) | String splitting (`split()`) using delimiters and regex whitespace |
-| 17 | [`Java17.java`](./week02/src/Java17.java) | User input via `Scanner` (`nextInt`, `nextLong`, `nextDouble`, `next`, `nextLine`) |
-| 18 | [`Java18.java`](./week02/src/Java18.java) | Static methods, parameters, return types (`getSum`, `sayHi`) |
-| 19 | [`Java19.java`](./week02/src/Java19.java) | Interactive CLI Calculator (Add, Subtract, Multiply, Divide) |
+### Week 01 - Performance Task: Canteen Stock Report
+- **Directory:** [`Week01_597/`](./Week01_597/)
+- **Topics:** Class modeling, instance variables, methods, object instantiation, stock valuation calculation.
+- **Files:**
+  - [`FoodItem.java`](./Week01_597/FoodItem.java): Models food items with `name`, `price`, and `quantity`, with methods `stockValue()`, `printLine()`, and optional `sell(amount)`.
+  - [`FoodItemDemo.java`](./Week01_597/FoodItemDemo.java): Driver class instantiating three items (Khichuri, Tea, Samosa), printing individual line summaries, total stock value, and handling sale transactions.
+
+### Week 02 - Syntax & Core Fundamentals
+- **Directory:** [`week02/src/`](./week02/src/)
+- **Topics:** Java basic syntax, control structures, loops, arrays, String methods, Scanner input, methods, and CLI applications.
+- **Submission PDF:** [`Week02_252-35-597.pdf`](./Week02_252-35-597.pdf)
+- **Reference Tutorial:** [Java Basic Syntax Bangla Playlist](https://www.youtube.com/playlist?list=PLdl6zXgLsy3xCae1uL6rJ8Ay9sIiyBy5I)
+- **Program Index (19 programs):**
+  - Output & Variables: `Java01.java` to `Java04.java`
+  - Conditionals & Control Flow: `Java05.java` to `Java07.java`
+  - Operators & Loops: `Java08.java` to `Java12.java`
+  - Arrays & Strings: `Java13.java` to `Java16.java`
+  - Scanner Input & Methods: `Java17.java` to `Java18.java`
+  - Calculator Application: `Java19.java`
+
+### Week 03 - Performance Task: Campus Bus Booking
+- **Directory:** [`week3/`](./week3/)
+- **Topics:** Encapsulation, static members/methods, constructor overloading and chaining (`this(...)`), reference assignment, formatted output (`printf`).
+- **Files:**
+  - [`BusTrip.java`](./week3/BusTrip.java): Models university bus routes with auto-generated trip codes (`BT-201`, etc.), seat booking logic, and revenue calculation.
+  - [`BusCounter.java`](./week3/BusCounter.java): Demonstrates batch bookings, reference aliasing (`busy = trips[3]`), trip search (`findByRoute`), and tracking highest vacancy.
+
+### Week 04 - Performance Task: Result Manager
+- **Directory:** [`week4/`](./week4/)
+- **Topics:** Object arrays, interactive `Scanner` input, input stream buffer clearing, min/max algorithms, and average calculation.
+- **Files:**
+  - [`week4_597.java`](./week4/week4_597.java): Implements `Student` class and interactive CLI managing results for 5 students, determining top performer, class average, lowest scorer, and count of above-average students.
+
+### Week 05 - Encapsulation & Data Validation
+- **Directory:** [`Week05/`](./Week05/)
+- **Topics:** OOP encapsulation, private fields, public getters and setters, domain validation constraints.
+- **Files:**
+  - [`Student.java`](./Week05/Student.java): Encapsulated student model enforcing marks validation range `[0, 100]`.
+  - [`StudentDemo.java`](./Week05/StudentDemo.java): Driver testing valid and invalid mark updates.
 
 ---
 
-## How to Run
-Compile and run any program from the terminal:
-```bash
-# Navigate to src folder
-cd week02/src
+## How to Compile & Run
 
-# Compile and run (e.g. Java01)
+### Week 01 (Canteen Stock Report)
+```bash
+javac Week01_597/FoodItem.java Week01_597/FoodItemDemo.java
+java -cp Week01_597 FoodItemDemo
+```
+
+### Week 02 (Syntax Exercises)
+```bash
+cd week02/src
 javac Java01.java
 java Java01
+```
+
+### Week 03 (Campus Bus Booking)
+```bash
+javac week3/BusTrip.java week3/BusCounter.java
+java -cp week3 BusCounter
+```
+
+### Week 04 (Result Manager)
+```bash
+javac week4/week4_597.java
+java -cp week4 week4_597
+```
+
+### Week 05 (Encapsulation Demo)
+```bash
+javac Week05/Student.java Week05/StudentDemo.java
+java -cp Week05 StudentDemo
 ```
